@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>markItUp 2.0</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="markitup/skins/default/styles.css" />
+	<link rel="stylesheet" type="text/css" href="markitup/sets/html/styles.css" />
+	<script src="js/jquery.js"></script>
+	<script src="markitup/jquery.markitup.js"></script>
+	<script src="markitup/sets/html/set.js"></script>
+	<script>
+		$(function()	{
+			$('#markItUp').markItUp( markItUpSettings );
+		});
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="flickr"><a href="http://bit.ly/7CH73R"><img src="img/flickr.png" alt="Screeshots on flickr"></a></div>
+		<div id="vimeo"><a href="http://vimeo.com/tag:markitup2"><img src="img/vimeo.png" alt="Screecasts on vimeo"></a></div>
+	</header>
+
+	<section>
+		<textarea id="markItUp" rows="20" cols="80">Welcome to the markItUp! 2.0 &lt;strong&gt;Html demo&lt;/strong&gt;</textarea>
+	</section>
+
+	<footer>
+		<h4>Note:</h4>
+		<p>This version is provided as is.<br>No time to finish it.<br>It's not proper for production use.</p>
+		<h4>Credits:</h4>
+		<ul>
+			<li>MarkItUp! by <a href="http://jaysalvat.com/">Jay Salvat</a></li>
+			<li>Fugue icons by <a href="http://pinvoke.com/">Yusuke Kamiyamane</a></li>
+			<li>Flickr / vimeo icons by <a href="http://dryicons.com/">DryIcons</a></li>
+		</ul>
+	</footer>
+</body>
+</html>

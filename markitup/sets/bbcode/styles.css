@@ -1,0 +1,78 @@
+.markItUpHeading a {
+	background-image:url(images/heading.png);
+}
+.markItUpP a {
+	background-image:url(images/p.png);
+}
+
+.markItUpBold a {
+	background-image:url(images/bold.png);
+}
+.markItUpItalic a {
+	background-image:url(images/italic.png);
+}
+.markItUpUnderline a {
+	background-image:url(images/underline.png);
+}
+
+.markItUpPicture a {
+	background-image:url(images/picture.png);
+}
+.markItUpLink a {
+	background-image:url(images/link.png);
+}
+
+.markItUpUl a {
+	background-image:url(images/ul.png);
+}
+.markItUpOl a {
+	background-image:url(images/ol.png);
+}
+
+.markItUpColor a {
+	background-image:url(images/color.png);
+}
+.markItUpSize a {
+	background-image:url(images/size.png);
+}
+.markItUpCode a {
+	background-image:url(images/code.png);
+}
+.markItUpQuote a {
+	background-image:url(images/quote.png);
+}
+
+.markItUpClean a {
+	background-image:url(images/broom.png);
+}
+.markItUpPreview a {
+	background-image:url(images/preview.png);
+}
+.markItUpPreview-alt a {
+	background-image:url(images/preview-alt.png);
+}
+
+/* Palette ------------- */
+.markItUpDialog.colorPalette {
+	width:169px;
+}
+.markItUpDialog.colorPalette div {
+	padding:0;
+}
+.markItUpDialog.colorPalette div ~ div {
+	padding:2px;
+}
+.markItUpDialog.colorPalette a {
+	display:block;
+	width:20px; height:20px;
+	background-image:url(images/glossy.png);
+	outline:none;
+}
+.markItUpDialog.colorPalette table {
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+}
+.markItUpDialog.colorPalette td {
+	border-bottom:1px solid #FFF;
+	border-right:1px solid #FFF;
+}

@@ -1,0 +1,13 @@
+.markItUpColorPicker a {
+	background-image:url(images/color.png);
+}
+.markItUpFarbtasticDialog {
+	width:210px;
+}
+.markItUpFarbtasticDialog div div {
+	border:none; padding:0;
+}
+.markItUpFarbtasticDialog input[type=text] {
+	width:188px;
+	text-align:center;
+}

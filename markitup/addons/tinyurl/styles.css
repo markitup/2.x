@@ -1,0 +1,15 @@
+.markItUpTinyUrl a {
+	background-image:url(images/globe-green.png);
+}
+.markItUpTinyUrlLink a {
+	background-image:url(images/globe-medium-green.png);
+}
+.markItUpTinyUrlContent a {
+	background-image:url(images/globe-medium-green.png);
+}
+.markItUpTinyUrlLinkDialog .markItUpTinyUrlLink {
+	padding-left:20px;
+	margin-left:5px;
+	background:url(images/globe-small-green.png) no-repeat;
+	height:20px;
+}

@@ -1,0 +1,48 @@
+.markItUpBold a {
+	background-image:url(images/bold.png);
+}
+.markItUpClean a {
+	background-image:url(images/clean.png);
+}
+.markItUpColor a {
+	background-image:url(images/color.png);
+}
+.markItUpColorpalette a {
+	background-image:url(images/colorpalette.png);
+}
+.markItUpDate a {
+	background-image:url(images/date.png);
+}
+.markItUpHeading a {
+	background-image:url(images/heading.png);
+}
+.markItUpItalic a {
+	background-image:url(images/italic.png);
+}
+.markItUpLink a {
+	background-image:url(images/link.png);
+}
+.markItUpOl a {
+	background-image:url(images/ol.png);
+}
+.markItUpUl a {
+	background-image:url(images/ul.png);
+}
+.markItUpP a {
+	background-image:url(images/p.png);
+}
+.markItUpPreview a {
+	background-image:url(images/preview.png);
+}
+.markItUpPreview-alt a {
+	background-image:url(images/preview-alt.png);
+}
+.markItUpQuote a {
+	background-image:url(images/quote.png);
+}
+.markItUpStroke a {
+	background-image:url(images/stroke.png);
+}
+.markItUpUnderline a {
+	background-image:url(images/underline.png);
+}

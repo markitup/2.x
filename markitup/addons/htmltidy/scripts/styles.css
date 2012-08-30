@@ -1,0 +1,27 @@
+	body {
+		overflow:auto;
+		margin:0; padding:0;
+	}
+	table {
+		width:100%;
+		border:4 solid #3C769D;
+		font:11px Arial, Helvetica, sans-serif;
+		border-collapse:collapse;
+	}
+	thead th, tfoot td {
+		text-align:left;
+		background-color:#444;
+		color:#FFF;
+		padding:3px;
+	}
+	td, th {
+		padding:3px 8px;
+	}
+	td {
+		border:1px solid #CCC;
+	}
+	td.lines, td.cols {
+		background-color:#EFEFEF;
+		color:#3C769D;
+		text-align:right;
+	}

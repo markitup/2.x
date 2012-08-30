@@ -1,0 +1,29 @@
+.markItUpAssets a {
+	background-image:url(images/briefcase.png);
+}
+.markItUpAssetsDialog select {
+	width:345px;
+}
+.markItUpAssetsDialog table {
+	border-spacing:2px;
+}
+.markItUpAssetsDialog .markItUpAssetsColors  {
+	max-height:150px;
+	overflow:auto;
+}
+.markItUpAssetsDialog .markItUpAssetsColors td {
+	background-image:url(images/glossy.png);
+}
+.markItUpAssetsDialog .markItUpAssetsColors a {
+	display:block;
+	width:20px; height:20px;
+}
+.markItUpAssetsDialog .markItUpAssetsPictures  {
+	max-height:150px;
+	overflow:auto;
+}
+.markItUpAssetsDialog .markItUpAssetsPictures img {
+	max-width:110px;
+	border:0;
+	-ms-interpolation-mode: bicubic;
+}

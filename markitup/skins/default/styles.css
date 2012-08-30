@@ -1,0 +1,274 @@
+/*
+	Main color 		: #3C769D
+	Second color 	: #F0F0F0;
+ */
+ 
+ /* Quick reset -------------------------------------------------------------- */
+.markItUp, .markItUp *, .markItUpDialog, .markItUpDialog * {
+	margin:0; padding:0; 
+	outline:none; 
+	font-size:100%; 
+}
+
+ /* Skin --------------------------------------------------------------------- */
+.markItUp {
+	position:relative;
+}
+.markItUpContainer {
+	background:#F0F0F0 url(images/bg-container.png) repeat-x top left;
+	border:1px solid #3C769D;
+	position:relative;
+	margin-bottom:5px;
+	font:11px Arial, Helvetica, sans-serif;
+}
+.markItUpEditor textarea {
+	background:#F0F0F0 url(images/bg-editor.png) repeat-x top left;
+	border:none;
+	padding:10px 5px 5px 30px;
+	font:13px Courier;
+	border-top:1px solid #3C769D;
+	line-height:1.6;
+}
+.markItUpBody {
+	float:none; clear:both;
+}
+
+/* Header --------------------------------------------------------------------- */
+.markItUpHeader ul {
+	list-style-type:none;
+	position:relative;
+	line-height:2.0em;
+}
+.markItUpHeader ul li {
+	float:left;
+	position:relative;
+}
+.markItUpHeader ul ul li {
+	border-bottom:1px solid #999;
+	width:150px;
+}
+.markItUpHeader ul ul {
+	position:absolute;
+	top:2.2em; left:1px;
+	border:1px solid #3C769D;
+	background:#F0F0F0 url(images/bg-editor.png) repeat-x 20% 5% ;
+	display:none;
+}
+.markItUpHeader ul ul a {
+	width:125px;
+	height:auto;
+	background-position:2px 50%;
+	margin:0;
+	padding:0 0 0 25px;
+	height:30px; line-height:30px;
+	text-decoration:none;
+	text-indent:0;
+	color:#222;
+}
+.markItUpHeader ul ul a:hover {
+	color:#FFF;
+}
+.markItUpHeader ul ul li:hover {
+	background-color:#3C769D;
+}
+.markItUpHeader ul ul ul {
+	top:-1px;
+	left:150px;
+}
+.markItUpHeader ul .markItUpNewline {
+	clear:both;
+	float:none;
+	font-size:0px; /* IE7 fix */
+}
+.markItUpHeader ul .markItUpSeparator {
+	float:left;
+	display:block;
+	text-indent:-9999px;
+	width:1px; height:20px;
+	background:#CCC;
+	margin:3px;
+}
+.markItUpHeader ul ul .markItUpSeparator {
+	width:auto; height:1px;
+	margin:0px;
+}
+.markItUpHeader ul .markItUpDropMenu {
+	background:transparent url(images/menu.png) no-repeat 125% 80%;
+}
+.markItUpHeader ul ul .markItUpDropMenu {
+	background:transparent url(images/submenu.png) no-repeat 98% 50%;
+}
+.markItUpButton a {
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:block;
+	margin:3px 2px;
+	text-indent:-9999px;
+	width:20px; height:20px; 
+	outline:none;
+}
+
+/* Footer --------------------------------------------------------------------- */
+.markItUpFooter {
+	padding:1px 5px;
+	background:#F0F0F0;
+	color:#777;
+}
+
+/* Preview --------------------------------------------------------------------- */
+.markItUpPreviewBlock {
+	display:none;
+}
+.markItUpCloseButton {
+	background:transparent url(images/close.png) no-repeat center center;
+	display:block;
+	margin:-10px -2px 0 0;
+	position:absolute;
+	right:0; 
+	text-indent:-9999px;
+	width:26px; height:28px;
+	outline:none;
+}
+.markItUpPreviewFrame	{
+	border:none;
+	border-top:1px solid #3C769D;
+	border-bottom:1px solid #3C769D;
+	overflow:auto;
+	width:99.9%; height:300px;
+}
+
+/* Overlays --------------------------------------------------------------------- */
+.markItUpOverlay {
+	background-color:white;
+	position:absolute;
+	opacity:0.5;filter:alpha(opacity=50);
+}
+.markItUpLock {
+	position:absolute;
+}
+
+/* Dialog Box --------------------------------------------------------------------- */
+.markItUpDialog {
+	font:11px Arial, Helvetica, sans-serif;
+	background:#F0F0F0 url(images/bg-editor.png) repeat-x center 24px;
+	border:1px solid #3C769D;
+	position:absolute;
+	top:0; left:50%;
+	width:380px; 
+}
+.markItUpDialog div {
+	border-top:1px dotted #555;
+	padding:5px;
+	overflow:hidden;
+	line-height:25px;
+	min-height:25px;
+}
+.markItUpDialog a {
+	color:#3C769D;
+}
+.markItUpDialog h3 {
+	border-bottom:1px solid #3C769D;
+	background:#FFF url(images/bg-container.png) repeat-x top left;
+	color:#222;
+	margin:0px;
+	padding:5px; 
+}
+.markItUpDialog label {
+	color:#3C769D;
+	font-weight:bold;
+	width:90px;
+	padding:0 0 0 3px;
+	float:left;
+}
+.markItUpDialog small {
+	color:#888;
+	padding:3px;
+}
+.markItUpDialog input[type=text] {
+	border:1px solid #999;
+	padding:5px;
+	font-size:11px;
+}
+.markItUpDialog input[type=submit],
+.markItUpDialog input[type=button] {
+	padding:2px;
+	margin:2px;
+}
+.markItUpDialog .markItUpLarge input[type=text],
+.markItUpDialog .markItUplarge select {
+	width:200px;
+}
+.markItUpDialog .markItUpMedium input[type=text],
+.markItUpDialog .markItUpMedium select {
+	width:125px;
+}
+.markItUpDialog .markItUpSmall input[type=text],
+.markItUpDialog .markItUpSmall select {
+	width:50px;
+}
+.markItUpDialog .markItUpPicker input[type=text]{
+	width:50px;
+}
+.markItUpDialog select {
+	border:1px solid #999;
+	padding:5px;
+	font-size:11px;
+}
+.markItUpDialog select option {
+	margin:4px;
+}
+.markItUpDialog .markItUpDialogButtons {
+	background:#FFF url(images/bg-container.png) repeat-x top;
+	border-top:1px solid #3C769D;
+	text-align:right;
+	padding:2px;
+	min-height:inherit;
+}
+.markItUpDialog iframe {
+	border:none;
+	overflow:auto;
+	width:99.9%; height:300px;
+}
+
+/* Color Picker --------------------------------------------- */
+.markItUpPicker div {
+	display: none;
+	position: absolute;
+	cursor: crosshair;
+	width: 405px;
+	min-height:21px;
+	margin: 0; padding: 0;
+	padding-right:5px;
+	text-align: right;
+	line-height: 21px;
+	border: 1px solid #999;
+	font-family: courier;
+	background: #FFF url(images/picker.png) no-repeat top left;
+}
+
+/* Processing --------------------------------------------- */
+.markItUpProcessing {
+	display:none;
+	background:transparent url(images/processing.gif) no-repeat center center; 
+	position:absolute; 
+	top:3px; right:2px;
+	text-indent:-9999px;
+	width:20px; height:20px;
+}
+
+/* Z-index */
+.markItUpHeader ul ul {
+	z-index:1000;
+}
+.markItUpLock {
+	z-index:1100;
+}
+.markItUpCloseButton {
+	z-index:1150;
+}
+.markItUpOverlay {
+	z-index:1200;
+}
+.markItUpDialog {
+	z-index:1500;
+}

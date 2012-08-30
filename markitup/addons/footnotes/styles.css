@@ -1,0 +1,6 @@
+.markItUpFootNote a {
+	background-image:url(images/footnote.png);
+}
+.markItUpFootNote-add a {
+	background-image:url(images/footnote-plus.png);
+}

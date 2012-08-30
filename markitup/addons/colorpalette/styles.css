@@ -1,0 +1,11 @@
+.markItUpColorPalette a {
+	background-image:url(images/palette.png);
+}
+.markItUpColorPaletteDialog {
+	width:380px;
+}
+.markItUpColorPaletteDialog a {
+	display:block;
+	width:10px; height:10px;
+	outline:none;
+}

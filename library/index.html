@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>markItUp 2.0 - Dummy library</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<script src="../js/jquery.js"></script>
+</head>
+<script>
+	$(function() {
+		$('.library a').click(function() {
+			var title = $(this).find('img').attr('alt'),
+				path  = $(this).attr('href');
+
+			parent.$('.markItUpFocused').markItUp().snippet('<img src="'+ path +'" alt="'+ title +'">');
+			parent.$.modal.close();
+		});
+	});
+</script>
+<body>
+<div class="library">
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou.jpg">
+					<img alt="Minou the dog" src="minou0.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou0.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou1.jpg">
+					<img alt="Minou the dog" src="minou1.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou1.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou2.jpg">
+					<img alt="Minou the dog" src="minou2.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou10.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou3.jpg">
+					<img alt="Minou the dog" src="minou3.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou2.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou4.jpg">
+					<img alt="Minou the dog" src="minou4.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou3.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou5.jpg">
+					<img alt="Minou the dog" src="minou5.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou6.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou6.jpg">
+					<img alt="Minou the dog" src="minou6.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou9.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou7.jpg">
+					<img alt="Minou the dog" src="minou7.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou7.jpg</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="items files">
+			<div class="pictures">
+				<a href="library/minou8.jpg">
+					<img alt="Minou the dog" src="minou8.jpg" width="128">
+				</a>
+			</div>
+			<div class="titles">minou8.jpg</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+

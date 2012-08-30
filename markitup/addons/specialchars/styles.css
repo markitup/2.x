@@ -1,0 +1,20 @@
+.markItUpSpecialCharsDialog {
+	width:275px;
+}
+.markItUpSpecialCharsDialog a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+	width: 20px; height: 20px; line-height: 20px;
+	border: 1px solid #999;
+	border-top-color: #dedede;
+	border-left-color: #dedede;
+	text-align: center;
+	margin:1px;
+}
+.markItUpSpecialCharsDialog a:hover {
+	border:1px solid #3C769D;
+}
+.markItUpSpecialChars a {
+	background-image:url(images/specialchars.png);
+}

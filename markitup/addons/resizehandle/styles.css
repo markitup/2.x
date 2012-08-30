@@ -1,0 +1,9 @@
+.markItUpResizeHandle {
+	overflow:hidden;
+	width:22px; height:6px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(images/handle.png);
+	cursor:n-resize;
+	border:none;
+}

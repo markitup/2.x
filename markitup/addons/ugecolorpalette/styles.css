@@ -1,0 +1,22 @@
+.markItUpUgeColorPalette a {
+	background-image:url(images/rainbow.png);
+}
+.markItUpUgeColorPaletteDialog {
+	width:256px;
+}
+.markItUpUgeColorPaletteDialog div {	
+	padding:0;
+}
+.markItUpUgeColorPaletteDialog div ~ div {	
+	padding:2px;
+}
+.markItUpUgeColorPaletteDialog td {
+	width:4px; height:2px;
+	cursor:crosshair;
+}
+.markItUpUgeColorPaletteDialog input[type=text] {
+	width:246px;
+	border:none;
+	border-top:1px solid #999;
+	text-align:center;
+}

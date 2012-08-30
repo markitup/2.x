@@ -1,0 +1,6 @@
+.markItUpFullScreen a {
+	background-image:url(images/fullscreen.png);
+}
+.markItUpFullScreen-alt a {
+	background-image:url(images/fullscreen-alt.png);
+}

@@ -1,0 +1,12 @@
+.markItUpUndo a {
+	background-image:url(images/undo.png);
+}
+.markItUpUndo-alt a {
+	background-image:url(images/undo-alt.png);
+}
+.markItUpRedo a {
+	background-image:url(images/redo.png);
+}
+.markItUpRedo-alt a {
+	background-image:url(images/redo-alt.png);
+}

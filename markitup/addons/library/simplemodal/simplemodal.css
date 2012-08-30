@@ -1,0 +1,15 @@
+/* Overlay */
+#modalOverlay {height:100%; width:100%; position:fixed; left:0; top:0; z-index:3000; background-color:#000;}
+/* Container */
+#modalContainer {position:fixed; margin:0 auto 0 auto; left:50%; top:10%; z-index:3100; background-color:#fff; border:3px solid #3C769D;}
+#modalContainer a.modalCloseImg { background:transparent url(../../_images/icons/close.png) no-repeat top left; width:16px; height:16px; display:inline; z-index:3200; position:absolute; top:-14px; right:-14px; cursor:pointer;}
+#modalContainer {
+	width:470px;
+	height:440px;
+	margin-left:-225px;
+}
+#modalContainer iframe {
+	width:100%; height:100%;
+	border:none;
+	overflow:hidden;
+}

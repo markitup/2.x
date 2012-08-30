@@ -1,0 +1,6 @@
+.markItUpSpellChecker a {
+	background-image:url(images/spell-check.png);
+}
+.markItUpSpellChecker-alt a {
+	background-image:url(images/spell-check-alt.png);
+}

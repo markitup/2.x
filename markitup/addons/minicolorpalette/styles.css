@@ -1,0 +1,30 @@
+.markItUpMiniColorPalette a {
+	background-image:url(images/swatch.png);
+}
+.markItUpMiniColorPaletteDialog {
+	width:169px;
+}
+.markItUpMiniColorPaletteDialog td {
+	border-bottom:1px solid #FFF;
+	border-right:1px solid #FFF;
+}
+.markItUpMiniColorPaletteDialog div {
+	padding:0;
+}
+.markItUpMiniColorPaletteDialog div ~ div {
+	padding:2px;
+}
+.markItUpMiniColorPaletteDialog a {
+	display:block;
+	width:20px; height:20px;
+	background-image:url(images/glossy.png);
+	outline:none;
+}
+.markItUpMiniColorPaletteDialog table {
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+}
+.markItUpMiniColorPaletteDialog td {
+	border-bottom:1px solid #FFF;
+	border-right:1px solid #FFF;
+}

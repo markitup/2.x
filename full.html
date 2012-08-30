@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>markItUp 2.0 - Full demo</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="markitup/skins/default/styles.css">
+	<link rel="stylesheet" href="markitup/sets/full/styles.css">
+	<script src="js/jquery.js"></script>
+	<script src="markitup/jquery.markitup.js"></script>
+	<script src="markitup/addons/library/set.js"></script>
+	<script src="markitup/addons/pictures/set.js"></script>
+	<script src="markitup/addons/farbtastic/set.js"></script>
+	<script src="markitup/addons/miniColorPalette/set.js"></script>
+	<script src="markitup/addons/colorPalette/set.js"></script>
+	<script src="markitup/addons/ugeColorPalette/set.js"></script>
+	<script src="markitup/addons/specialChars/set.js"></script>
+	<script src="markitup/addons/searchAndReplace/set.js"></script>
+	<script src="markitup/addons/tinyUrl/set.js"></script>
+	<script src="markitup/addons/assets/set.js"></script>
+	<script src="markitup/addons/htmlParser/set.js"></script>
+	<script src="markitup/addons/htmlTidy/set.js"></script>
+	<script src="markitup/addons/footNotes/set.js"></script>
+	<script src="markitup/addons/undoRedo/set.js"></script>
+	<script src="markitup/addons/fullScreen/set.js"></script>
+	<script src="markitup/addons/calculator/set.js"></script>
+	<script src="markitup/addons/emailContent/set.js"></script>
+	<script src="markitup/addons/dateOfTheDay/set.js"></script>
+	<script src="markitup/addons/sortContent/set.js"></script>
+	<script src="markitup/addons/loremIpsum/set.js"></script>
+	<script src="markitup/addons/codeBlock/set.js"></script>
+	<script src="markitup/addons/saveContent/set.js"></script>
+	<script src="markitup/addons/printContent/set.js"></script>
+	<script src="markitup/addons/spellChecker/set.js"></script>
+	<script src="markitup/addons/terminal/set.js"></script>
+	<script src="markitup/addons/zenCoding/set.js"></script>
+	<script src="markitup/addons/resizeHandle/set.js"></script>
+	<script src="markitup/addons/autoSave/set.js"></script>
+	<script src="markitup/addons/markdownParser/set.js"></script>
+	<script src="markitup/addons/bbcodeParser/set.js"></script>
+	<script src="markitup/addons/wikiParser/set.js"></script>
+	<script src="markitup/sets/full/set.js"></script>
+	<script>
+		$(function() {
+			$('#markItUp').markItUp( markItUpSettings );
+			
+			$('#insert').click(function() {
+				$('#markItUp').markItUp().snippet('Hello {E}world{/E}!');
+				return false;
+			});
+
+			$('#api').click(function() {
+				$('#markItUp').markItUp().selection(5, 20);
+				return false;
+			});
+
+			$('#remove').click(function() {
+				$('#markItUp').markItUpRemove();
+				return false;
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="flickr"><a href="http://bit.ly/7CH73R"><img src="img/flickr.png" alt="Screeshots on flickr"></a></div>
+		<div id="vimeo"><a href="http://vimeo.com/tag:markitup2"><img src="img/vimeo.png" alt="Screecasts on vimeo"></a></div>
+	</header>
+
+	<section>
+		<textarea id="markItUp" rows="20" cols="80">Some content to play with...</textarea>
+
+		<nav>
+			<a href="#" id="insert">insert</a> / 
+			<a href="#" id="api">api</a> / 
+			<a href="#" id="remove">remove</a> / 
+		</nav>
+	</section>
+
+	<footer>
+		<h4>Note:</h4>
+		<p>This version is provided as is.<br>No time to finish it.<br>It's not proper for production use.</p>
+		<h4>Credits:</h4>
+		<ul>
+			<li>MarkItUp! by <a href="http://jaysalvat.com/">Jay Salvat</a></li>
+			<li>Fugue icons by <a href="http://pinvoke.com/">Yusuke Kamiyamane</a></li>
+			<li>Flickr / vimeo icons by <a href="http://dryicons.com/">DryIcons</a></li>
+		</ul>
+	</footer>
+</body>
+</html>

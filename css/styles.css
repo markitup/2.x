@@ -1,0 +1,51 @@
+	html {
+		background: #D1D1D1;
+	}
+	body {
+		width: 1000px;
+		margin: 10px auto;
+		padding-top: 420px;
+		font: 11px Geneva, Arial, Helvetica, sans-serif;
+		color: #555;
+		position: relative;
+		background: url(../img/splash.jpg) top center no-repeat;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: #4D85A0;
+		margin: 1% 0;
+	}
+	a {
+		color: #444;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	a: hover {
+		color: #0099CC;
+	}
+	ul {
+		list-style: none;
+		padding: 0; margin: 0;
+	}
+	section {
+		width: 1000px; 
+		padding: 0 140px;
+	}
+	footer {
+		width: 720px; 
+		margin: 50px auto;
+	}
+
+	#flickr {
+		position: absolute;
+		top: 330px; left: 100px;
+	}
+	#vimeo {
+		position: absolute;
+		top: 330px; left: 350px;
+	}
+	#myPreview {
+		background: lightyellow;
+		padding: 20px;
+		width: 650px;
+		margin: 30px 0;
+	}

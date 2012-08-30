@@ -1,0 +1,75 @@
+/* CSS Document */
+	a:link,
+	a:hover,
+	a:visited,
+	a:active {
+		color:#3C769D;
+		text-decoration:none;
+	}
+	body	{
+		font:11px Arial, Helvetica, sans-serif;
+		margin:0;
+		padding:0;
+	}
+	.library	{
+		padding:5px;
+		height:1%;
+	}
+	.library:after { 
+		clear:both; 
+		content:"."; 
+		display:block; 
+		height:0; 
+		visibility:hidden;
+	}
+	.wrapper	{
+		border:1px solid #CCC;
+		padding:5px;	
+		margin:2px;
+		position:relative;
+		float:left;
+	}
+	.titles	{
+		color:#666666;
+		border:1px solid #CCC;
+		padding:5px;
+		width:116px;
+		margin:1px;
+	    white-space:nowrap;
+	    text-overflow:ellipsis;
+	    overflow:hidden;
+	}
+	.breadcrump	{
+		padding:5px;
+		background:#FFFFFF url(../../markitup/skins/markitup/images/bg-container.png) repeat-x top left;
+		border-bottom:1px solid #3C769D;
+		color:#000;
+	}
+	.empty	{
+		width:100%; 
+		padding:5% 0 5% 0;
+		text-align:center;
+		border:1px solid #3C769D;
+	}
+	.folders .titles	{
+		font-weight:bold;
+		overflow:hidden;
+	}
+	.items img	{
+		border:none;
+		margin:1px;
+	}
+	.folders, .items {
+		cursor:pointer;
+	}
+	.form fieldset	{
+		margin:0 0 10px 0;
+		padding:10px;
+		border:1px solid #3C769D;
+	}
+	.form label	{
+		left:left;
+		display:block;
+		width:200px;
+		font-weight:bold;
+	}
